@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aluXXXXXXX/STW03.git"
+    "url": "https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-adrian_adexe/"
   },
   "keywords": [
     "conversor"
   ],
-  "author": "",
+  "author": "Adrián and Adexe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aluXXXXXXX/STW03/issues"
+    "url": "https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-adrian_adexe/issues"
   },
-  "homepage": "https://github.com/aluXXXXXXX/STW03",
+  "homepage": "https://github.com/ULL-ESIT-GRADOII-PL",
   "devDependencies": {
     "blanket": "^1.2.2",
     "chai": "^3.5.0",
