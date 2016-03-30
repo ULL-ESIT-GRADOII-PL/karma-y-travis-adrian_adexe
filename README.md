@@ -30,6 +30,8 @@ $ node_modules/karma/bin/karma start
 
 **Travis CI**, es un sistema distribuido de generación e integración continua libre que permite conectar tu repositorio de **gitHub** y probar después de cada *push* que hagas.
 
+[![Build Status](https://travis-ci.org/AdCalzadilla/karma-y-travis-adrian_adexe.svg?branch=master)](https://travis-ci.org/AdCalzadilla/karma-y-travis-adrian_adexe)
+
 ## Repositorio GitHuB
 
 * [Repositorio Organización](https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-adrian_adexe)
