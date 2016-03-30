@@ -38,10 +38,10 @@ $ node_modules/karma/bin/karma start
 
 ## Página de la práctica
 
-* [Página Web de la práctica](http://ull-esit-gradoii-pl.github.io/karma-y-travis-adrian_adexe)
+* [Página Web de la práctica **Organización**](http://ull-esit-gradoii-pl.github.io/karma-y-travis-adrian_adexe)
+* [Página Web de la práctica **Repo de usuario para travis**](http://adcalzadilla.github.io/karma-y-travis-adrian_adexe)
 * [Página Web de los tests](http://ull-esit-gradoii-pl.github.io/karma-y-travis-adrian_adexe/test)
-* [Enlace a la práctica en el campus virtual](https://campusvirtual.ull.es/1516/mod/workshop/view.php?id=185196)
-* [Enlace a **travis**]()
+* [Enlace a la práctica en el campus virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=184132)
 
 ## Página del autor
 
