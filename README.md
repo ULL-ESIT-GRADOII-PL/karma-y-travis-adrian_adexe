@@ -3,9 +3,9 @@
 Práctica  donde partiendo de la aplicación de conversión de tipos, realizada con anterioridad utilizando los siguientes recursos:
 
 * Html
-* Css 
+* Css
 * Javascript
-	+ POO 
+	+ POO
 	+ herencia en javascript
 * Librería [**XRegExp**](http://xregexp.com/).
 * Pruebas con [**mocha**](http://mochajs.org/) y [**chai**](http://chaijs.com/)
@@ -17,6 +17,14 @@ Se le añadirá [**karma**](https://karma-runner.github.io/0.13/index.html) y [*
 ## Karma
 
 Karma se encarga de ejecutar los test de Javascript según se vayan construyendo, de tal forma que ante cualquier fallo el desarrollador se dará cuenta de inmediato.
+
+### Nota:
+
+* Para ejecutar karma utilizar el siguiente comando:
+
+```bash
+$ node_modules/karma/bin/karma start
+```
 
 ## Travis
 
