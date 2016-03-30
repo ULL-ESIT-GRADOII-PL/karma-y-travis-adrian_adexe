@@ -3,9 +3,9 @@
 Práctica  donde partiendo de la aplicación de conversión de tipos, realizada con anterioridad utilizando los siguientes recursos:
 
 * Html
-* Css 
+* Css
 * Javascript
-	+ POO 
+	+ POO
 	+ herencia en javascript
 * Librería [**XRegExp**](http://xregexp.com/).
 * Pruebas con [**mocha**](http://mochajs.org/) y [**chai**](http://chaijs.com/)
@@ -18,9 +18,19 @@ Se le añadirá [**karma**](https://karma-runner.github.io/0.13/index.html) y [*
 
 Karma se encarga de ejecutar los test de Javascript según se vayan construyendo, de tal forma que ante cualquier fallo el desarrollador se dará cuenta de inmediato.
 
+### Nota:
+
+* Para ejecutar karma utilizar el siguiente comando:
+
+```bash
+$ node_modules/karma/bin/karma start
+```
+
 ## Travis
 
 **Travis CI**, es un sistema distribuido de generación e integración continua libre que permite conectar tu repositorio de **gitHub** y probar después de cada *push* que hagas.
+
+[![Build Status](https://travis-ci.org/AdCalzadilla/karma-y-travis-adrian_adexe.svg?branch=master)](https://travis-ci.org/AdCalzadilla/karma-y-travis-adrian_adexe)
 
 ## Repositorio GitHuB
 
@@ -28,9 +38,10 @@ Karma se encarga de ejecutar los test de Javascript según se vayan construyendo
 
 ## Página de la práctica
 
-* [Página Web de la práctica](http://ull-esit-gradoii-pl.github.io/karma-y-travis-adrian_adexe)
+* [Página Web de la práctica **Organización**](http://ull-esit-gradoii-pl.github.io/karma-y-travis-adrian_adexe)
+* [Página Web de la práctica **Repo de usuario para travis**](http://adcalzadilla.github.io/karma-y-travis-adrian_adexe)
 * [Página Web de los tests](http://ull-esit-gradoii-pl.github.io/karma-y-travis-adrian_adexe/test)
-* [Enlace a la práctica en el campus virtual](https://campusvirtual.ull.es/1516/mod/workshop/view.php?id=185196)
+* [Enlace a la práctica en el campus virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=184132)
 
 ## Página del autor
 

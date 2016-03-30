@@ -4,7 +4,7 @@
   "description": "Conversor javascript de tipos",
   "main": "conversor.js",
   "scripts": {
-    "test": "mocha test",
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js"
   },
   "repository": {
@@ -30,7 +30,14 @@
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-cli": "^0.1.2",
+    "karma-mocha": "^0.2.2",
+    "karma-phantomjs-launcher": "^1.0.0",
     "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.7",
     "xregexp": "^3.1.0"
   }
 }
