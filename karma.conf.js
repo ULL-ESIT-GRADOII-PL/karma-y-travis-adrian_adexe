@@ -16,7 +16,8 @@ module.exports = function(config) {
     files: [
       'assets/js/*.js',
       'test/*.js',
-      'test/index.html'
+      'test/index.html',
+      'test/mocha.css'
     ],
 
 
