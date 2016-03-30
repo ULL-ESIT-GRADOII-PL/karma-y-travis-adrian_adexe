@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-  - 0.8
-before_install:
-  - npm update -q
+  - "5"
+  - "0.12"
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
