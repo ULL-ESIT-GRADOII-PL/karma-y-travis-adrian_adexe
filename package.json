@@ -30,6 +30,7 @@
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
+    "karma": "^0.13.22",
     "mocha": "^2.4.5",
     "xregexp": "^3.1.0"
   }
