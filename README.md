@@ -30,15 +30,18 @@ $ node_modules/karma/bin/karma start
 
 **Travis CI**, es un sistema distribuido de generación e integración continua libre que permite conectar tu repositorio de **gitHub** y probar después de cada *push* que hagas.
 
+[![Build Status](https://travis-ci.org/AdCalzadilla/karma-y-travis-adrian_adexe.svg?branch=master)](https://travis-ci.org/AdCalzadilla/karma-y-travis-adrian_adexe)
+
 ## Repositorio GitHuB
 
 * [Repositorio Organización](https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-adrian_adexe)
 
 ## Página de la práctica
 
-* [Página Web de la práctica](http://ull-esit-gradoii-pl.github.io/karma-y-travis-adrian_adexe)
+* [Página Web de la práctica **Organización**](http://ull-esit-gradoii-pl.github.io/karma-y-travis-adrian_adexe)
+* [Página Web de la práctica **Repo de usuario para travis**](http://adcalzadilla.github.io/karma-y-travis-adrian_adexe)
 * [Página Web de los tests](http://ull-esit-gradoii-pl.github.io/karma-y-travis-adrian_adexe/test)
-* [Enlace a la práctica en el campus virtual](https://campusvirtual.ull.es/1516/mod/workshop/view.php?id=185196)
+* [Enlace a la práctica en el campus virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=184132)
 
 ## Página del autor
 
