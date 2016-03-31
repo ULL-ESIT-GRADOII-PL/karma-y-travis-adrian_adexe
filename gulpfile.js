@@ -8,7 +8,7 @@ var minifyCSS  = require('gulp-minify-css');
 var ghPages = require('gulp-gh-pages');
 
 gulp.task('minify', function () {
-  gulp.src('assets/js/*.js')
+  gulp.src('javascript/*.js')
   .pipe(uglify())
   .pipe(gulp.dest('minified/javascript/'));
 
@@ -16,7 +16,7 @@ gulp.task('minify', function () {
     .pipe(minifyHTML())
     .pipe(gulp.dest('./minified/'));
 
-  gulp.src('assets/css/*.css')
+  gulp.src('stylesheet/*.css')
    .pipe(minifyCSS({keepBreaks:true}))
    .pipe(gulp.dest('./minified/stylesheet/'));
 
