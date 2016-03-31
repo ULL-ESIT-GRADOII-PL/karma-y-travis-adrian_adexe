@@ -14,11 +14,25 @@ gulp.task('minify', function () {
 
   gulp.src('./index.html')
     .pipe(minifyHTML())
-    .pipe(gulp.dest('./minified/'))
+    .pipe(gulp.dest('./minified/'));
 
   gulp.src('assets/css/*.css')
    .pipe(minifyCSS({keepBreaks:true}))
-   .pipe(gulp.dest('./minified/stylesheet/'))
+   .pipe(gulp.dest('./minified/stylesheet/'));
+
+   //Test
+   gulp.src('test/*.js')
+   .pipe(uglify())
+   .pipe(gulp.dest('minified/test/javascript/'));
+
+   gulp.src('test/index.html')
+     .pipe(minifyHTML())
+     .pipe(gulp.dest('./minified/test'));
+
+   gulp.src('test/*.css')
+    .pipe(minifyCSS({keepBreaks:true}))
+    .pipe(gulp.dest('./minified/test/stylesheet/'));
+
 });
 
 gulp.task('clean', function(cb) {
