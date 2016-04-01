@@ -14,10 +14,10 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'assets/js/*.js',
-      'test/*.js',
+      'javascript/*.js',
+      'test/javascript/*.js',
       'test/index.html',
-      'test/mocha.css'
+      'test/stylesheet/mocha.css'
     ],
 
 

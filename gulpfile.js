@@ -5,21 +5,41 @@ var gulp    = require('gulp'),
 var del     = require('del');
 var minifyHTML = require('gulp-minify-html');
 var minifyCSS  = require('gulp-minify-css');
+var ghPages = require('gulp-gh-pages');
 
 gulp.task('minify', function () {
-  gulp.src('assets/js/*.js')
+  gulp.src('javascript/*.js')
   .pipe(uglify())
   .pipe(gulp.dest('minified/javascript/'));
 
   gulp.src('./index.html')
     .pipe(minifyHTML())
-    .pipe(gulp.dest('./minified/'))
+    .pipe(gulp.dest('./minified/'));
 
-  gulp.src('assets/css/*.css')
+  gulp.src('stylesheet/*.css')
    .pipe(minifyCSS({keepBreaks:true}))
-   .pipe(gulp.dest('./minified/stylesheet/'))
+   .pipe(gulp.dest('./minified/stylesheet/'));
+
+   //Test
+   gulp.src('test/javascript/*.js')
+   .pipe(uglify())
+   .pipe(gulp.dest('minified/test/javascript/'));
+
+   gulp.src('test/index.html')
+     .pipe(minifyHTML())
+     .pipe(gulp.dest('./minified/test'));
+
+   gulp.src('test/stylesheet/*.css')
+    .pipe(minifyCSS({keepBreaks:true}))
+    .pipe(gulp.dest('./minified/test/stylesheet/'));
+
 });
 
 gulp.task('clean', function(cb) {
   del(['minified/*'], cb);
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('./minified/**/*')
+    .pipe(ghPages());
 });
