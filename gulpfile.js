@@ -21,7 +21,7 @@ gulp.task('minify', function () {
    .pipe(gulp.dest('./minified/stylesheet/'));
 
    //Test
-   gulp.src('test/*.js')
+   gulp.src('test/javascript/*.js')
    .pipe(uglify())
    .pipe(gulp.dest('minified/test/javascript/'));
 
@@ -29,7 +29,7 @@ gulp.task('minify', function () {
      .pipe(minifyHTML())
      .pipe(gulp.dest('./minified/test'));
 
-   gulp.src('test/*.css')
+   gulp.src('test/stylesheet/*.css')
     .pipe(minifyCSS({keepBreaks:true}))
     .pipe(gulp.dest('./minified/test/stylesheet/'));
 
